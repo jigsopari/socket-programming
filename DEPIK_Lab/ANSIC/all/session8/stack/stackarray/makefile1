@@ -1,0 +1,8 @@
+target: ex1.o arstk.o
+	cc -o target ex1.o arstk.o
+ex1.o: ex1.c
+	cc -c ex1.c
+arstk.o: arstk.c
+	cc -c arstk.c
+clean:
+	rm *.o      

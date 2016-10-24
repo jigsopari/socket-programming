@@ -1,0 +1,9 @@
+001000a8 A __bss_start
+00100024 T drvKeysRead
+00100062 T drvLedsWrite
+001000a8 A _edata
+001000a8 A _end
+00100010 T inb
+00100018 T outb
+00100085 T root
+00100000 T _start

@@ -1,0 +1,8 @@
+target2: ex2.o llq.o
+	cc -o target2 ex2.o llq.o
+ex2.o: ex2.c
+	cc -c ex2.c
+llq.o: llq.c
+	cc -c llq.c
+clean: 
+	rm *.o

@@ -1,0 +1,12 @@
+00300120 A __bss_start
+00300120 A _edata
+00300124 A _end
+00300024 T getchar
+0030011c D i
+00300011 T inb
+00300120 B j
+00300019 T outb
+0030005b T putchar
+00300095 T puts
+003000bf T root
+00300000 T _start
