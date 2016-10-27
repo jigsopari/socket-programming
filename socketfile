@@ -1,0 +1,3 @@
+run ./server first
+
+then run ./client localhost
