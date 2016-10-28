@@ -20,7 +20,7 @@ perror("socket failed");
 exit(1);
 }
 server.sin_family=AF_INET;
-hp=gethostbyname(*argv[1]);
+hp=gethostbyname((const char*)argv[1]);
 if(hp==0)
 {
 perror("get host by name failed");
